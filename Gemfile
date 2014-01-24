@@ -10,6 +10,9 @@ gem 'sqlite3'
 
 gem 'rack-cors'
 
+gem 'warden'
+gem 'bcrypt-ruby'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
