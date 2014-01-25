@@ -22,4 +22,11 @@ angular.module('appApp', [
           "":
             templateUrl: '/views/users.html'
             controller: 'UserCtrl'
+      .state 'login',
+        parent: 'default'
+        url: '/login'
+        views:
+          "":
+            templateUrl: '/views/sessions/new.html'
+            controller: 'SessionCtrl'
   ]
