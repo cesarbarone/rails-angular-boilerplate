@@ -20,7 +20,13 @@ angular.module('appApp', [
         url: '/users'
         views:
           "":
-            templateUrl: '/views/users.html'
+            templateUrl: '/views/users/index.html'
+            controller: 'UserCtrl'
+      .state 'users.new',
+        url: '/users/new'
+        views:
+          "@default":
+            templateUrl: '/views/users/new.html'
             controller: 'UserCtrl'
       .state 'login',
         parent: 'default'

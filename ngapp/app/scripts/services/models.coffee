@@ -7,4 +7,5 @@ angular.module('appApp')
 
     models =
       sessions: bondRestangular.all 'sessions'
+      users: bondRestangular.all 'users'
   ]
